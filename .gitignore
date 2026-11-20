@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.cache/
+data/
+*.log
+dist/
+research/challenge.html
+research/challenge.txt
+research/yeno-starter-kit.zip

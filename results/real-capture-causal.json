@@ -1,0 +1,95 @@
+{
+  "evidence": "REAL_PUBLIC_FORWARD_CAPTURE",
+  "official_parity": false,
+  "source_sha256": "b7170298b99ac48e63d45db70fcefb9882924dd9b5b37b8db54baac965f09d77",
+  "capture_file_sha256": {
+    "raw.jsonl.gz": "d5cbeb928c6ec02047de20b1d0228d328becbf5b6ff7d58fed1c62b67ecdb30f",
+    "supplemental.jsonl": "8ac09f8c0ceb6bc50af072cb498cdbeb567fd236ebedd305c641dd54f945fdd0",
+    "manifest.json": "27a4af12c37d6567aced388b3e5512ced5fa742e5153b2465ca55451e99636eb"
+  },
+  "contained_market_windows": [
+    "btc-updown-5m-1794750600"
+  ],
+  "complete_data_validated": false,
+  "data_diagnostics": {
+    "raw_rows": 302964,
+    "connection_events": 2,
+    "out_of_order_book_events": 9,
+    "missing_snapshot_or_minimum": 6821,
+    "provisional_target_observations": 62112,
+    "observations": 222774,
+    "target_revisions": 1
+  },
+  "strategies": {
+    "harbor": {
+      "evidence": "local diagnostic; no official parity validation",
+      "qualified": false,
+      "cash_usd": 10.036615281249329,
+      "volume_usd": 10.027893281206383,
+      "fees_usd": 0.11765999999999999,
+      "max_drawdown_usd": 0.18056509374977558,
+      "cycles": 1,
+      "settled_incomplete_cycles": 0,
+      "decisions": 222322,
+      "invalid_decisions": 0,
+      "rejected_buys": 0,
+      "flat": true,
+      "elapsed_seconds": 289.91008710861206,
+      "status": "DATA_ENDED_FLAT"
+    },
+    "warmup": {
+      "evidence": "local diagnostic; no official parity validation",
+      "qualified": false,
+      "cash_usd": 10.02475567300186,
+      "volume_usd": 20.0102116729543,
+      "fees_usd": 0.23138,
+      "max_drawdown_usd": 0.19242470199724515,
+      "cycles": 2,
+      "settled_incomplete_cycles": 0,
+      "decisions": 221818,
+      "invalid_decisions": 0,
+      "rejected_buys": 0,
+      "flat": true,
+      "elapsed_seconds": 289.91008710861206,
+      "status": "DATA_ENDED_FLAT"
+    },
+    "edge04": {
+      "evidence": "local diagnostic; no official parity validation",
+      "qualified": false,
+      "cash_usd": 10.0,
+      "volume_usd": 0.0,
+      "fees_usd": 0.0,
+      "max_drawdown_usd": 0.0,
+      "cycles": 0,
+      "settled_incomplete_cycles": 0,
+      "decisions": 222774,
+      "invalid_decisions": 0,
+      "rejected_buys": 0,
+      "flat": true,
+      "elapsed_seconds": 289.91008710861206,
+      "status": "DATA_ENDED_FLAT"
+    },
+    "reference": {
+      "evidence": "local diagnostic; no official parity validation",
+      "qualified": false,
+      "cash_usd": 10.036615312498972,
+      "volume_usd": 10.027895312433134,
+      "fees_usd": 0.11765999999999999,
+      "max_drawdown_usd": 0.1805651041663232,
+      "cycles": 1,
+      "settled_incomplete_cycles": 0,
+      "decisions": 222322,
+      "invalid_decisions": 0,
+      "rejected_buys": 0,
+      "flat": true,
+      "elapsed_seconds": 289.91008710861206,
+      "status": "DATA_ENDED_FLAT"
+    }
+  },
+  "limitations": [
+    "Public upstream books; not Builderr's private capture or canonical evaluator.",
+    "Target is provisional until matching a causally received exact-opening TWAP; missing samples block entries.",
+    "Observation freshness uses local receive time; original source times preserved.",
+    "No settlement inference: unresolved leftover inventory remains incomplete."
+  ]
+}

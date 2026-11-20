@@ -1,0 +1,22 @@
+{
+  "official_smoke": {
+    "contractSmokePassed": true,
+    "decision": {
+      "action": "HOLD"
+    }
+  },
+  "requests": 600,
+  "actions": {
+    "HOLD": 165,
+    "SELL": 300,
+    "BUY": 135
+  },
+  "http_latency_ms": {
+    "p50": 1.4664999998785788,
+    "p95": 18.278199999258504,
+    "p99": 24.169299998902716,
+    "max": 27.026900001146714
+  },
+  "under_200ms_all_requests": true,
+  "strategy_errors": 0
+}

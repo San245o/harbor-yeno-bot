@@ -1,0 +1,299 @@
+{
+  "evidence": "CAPTURE_QUALITY_ONLY",
+  "in_progress": false,
+  "partial_gzip_tail": false,
+  "first_received_at": 1794752874.3146536,
+  "last_received_at": 1794767402.9257028,
+  "events": {
+    "yeno_market": 2216,
+    "connection": 12,
+    "clob": 10367686,
+    "gamma_market": 50,
+    "yeno_book_metadata": 761,
+    "reference": 28594,
+    "metadata_error": 2
+  },
+  "nonmonotonic_receive_rows": 0,
+  "nonconsecutive_sequence_rows": 0,
+  "max_receive_gap_seconds": {
+    "clob": 6.203616619110107,
+    "crypto:btcusdt:twap60": 8.437148571014404,
+    "crypto:btcusdt": 6.762330770492554
+  },
+  "receive_gaps_above_freshness_threshold": {
+    "clob": 14,
+    "crypto:btcusdt:twap60": 677,
+    "crypto:btcusdt": 675
+  },
+  "connection_events": [
+    {
+      "receivedAt": 1794752876.476422,
+      "feed": "clob",
+      "event": "connected"
+    },
+    {
+      "receivedAt": 1794752877.0068457,
+      "feed": "reference",
+      "event": "connected"
+    },
+    {
+      "receivedAt": 1794754551.4693992,
+      "feed": "clob",
+      "event": "disconnected",
+      "error": "received 1013 (try again later) slow consumer: send buffer full; then sent 1013 (try again later) slow consumer: send buffer full"
+    },
+    {
+      "receivedAt": 1794754554.8818855,
+      "feed": "clob",
+      "event": "connected"
+    },
+    {
+      "receivedAt": 1794754926.593973,
+      "feed": "clob",
+      "event": "disconnected",
+      "error": "no close frame received or sent"
+    },
+    {
+      "receivedAt": 1794754929.8083422,
+      "feed": "clob",
+      "event": "connected"
+    },
+    {
+      "receivedAt": 1794755170.0187867,
+      "feed": "clob",
+      "event": "disconnected",
+      "error": "received 1013 (try again later) slow consumer: send buffer full; then sent 1013 (try again later) slow consumer: send buffer full"
+    },
+    {
+      "receivedAt": 1794755173.4316099,
+      "feed": "clob",
+      "event": "connected"
+    },
+    {
+      "receivedAt": 1794755218.865616,
+      "feed": "clob",
+      "event": "disconnected",
+      "error": "received 1013 (try again later) slow consumer: send buffer full; then sent 1013 (try again later) slow consumer: send buffer full"
+    },
+    {
+      "receivedAt": 1794755222.304807,
+      "feed": "clob",
+      "event": "connected"
+    },
+    {
+      "receivedAt": 1794760352.358921,
+      "feed": "clob",
+      "event": "disconnected",
+      "error": "received 1013 (try again later) slow consumer: send buffer full; then sent 1013 (try again later) slow consumer: send buffer full"
+    },
+    {
+      "receivedAt": 1794760355.866298,
+      "feed": "clob",
+      "event": "connected"
+    }
+  ],
+  "markets": {
+    "btc-updown-5m-1794752700": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794753000": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794753300": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794753600": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794753900": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794754200": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794754500": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794754800": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794755100": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794755400": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794755700": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794756000": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794756300": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794756600": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794756900": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794757200": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794757500": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794757800": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794758100": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794758400": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794758700": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794759000": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794759300": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794759600": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794759900": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794760200": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794760500": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794760800": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794761100": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794761400": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794761700": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794762000": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794762300": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794762600": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794762900": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794763200": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794763500": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794763800": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794764100": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794764400": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794764700": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794765000": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794765300": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794765600": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794765900": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794766200": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794766500": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794766800": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794767100": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794767400": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    }
+  },
+  "reached_planned_end": true,
+  "limitations": "Feed-wide receive gaps do not prove per-outcome freshness or lossless delivery. Book freshness is independently enforced at every replay fill."
+}

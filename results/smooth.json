@@ -1,0 +1,60 @@
+{
+  "evidence": "SYNTHETIC_DIAGNOSTIC",
+  "official_parity": false,
+  "input_sha256": "d17e3719eac4e7a719fcae27d033534c4a5d421351addbdac36c93d604f27ebb",
+  "source_sha256": "7ae7ece1104e4c75a4c3d7e1a6f8fe3e4a5ef60749ffb42f63744047a169fe3e",
+  "configuration": {
+    "min_ask": 0.94,
+    "max_ask": 0.969,
+    "min_entry_seconds": 22.0,
+    "max_entry_seconds": 300.0,
+    "exit_seconds": 20.0,
+    "minimum_model_edge": 0.03,
+    "minimum_edge_per_share": 0.001,
+    "take_profit_bid": 0.99,
+    "execution_reserve": 0.0,
+    "sizing_stress": 0.02,
+    "exit_depth_coverage": 0.1,
+    "reentry_seconds": 0.5,
+    "volatility_multiplier": 1.0,
+    "settlement": "twap60"
+  },
+  "rows": 86688,
+  "regime": "smooth",
+  "seed": 101,
+  "adverse_per_leg": 0.0,
+  "strategies": {
+    "harbor": {
+      "evidence": "local diagnostic; no official parity validation",
+      "qualified": true,
+      "cash_usd": 9.910955010079467,
+      "volume_usd": 1009.2085830091074,
+      "fees_usd": 12.51167000000001,
+      "max_drawdown_usd": 2.5133469574423195,
+      "cycles": 101,
+      "settled_incomplete_cycles": 0,
+      "decisions": 70166,
+      "invalid_decisions": 0,
+      "rejected_buys": 0,
+      "flat": true,
+      "elapsed_seconds": 70181.0,
+      "status": "LOCAL_TARGET_CROSSING"
+    },
+    "reference": {
+      "evidence": "local diagnostic; no official parity validation",
+      "qualified": true,
+      "cash_usd": 9.910957528307119,
+      "volume_usd": 1009.2087875276345,
+      "fees_usd": 12.51167000000001,
+      "max_drawdown_usd": 2.513346480103719,
+      "cycles": 101,
+      "settled_incomplete_cycles": 0,
+      "decisions": 70166,
+      "invalid_decisions": 0,
+      "rejected_buys": 0,
+      "flat": true,
+      "elapsed_seconds": 70181.0,
+      "status": "LOCAL_TARGET_CROSSING"
+    }
+  }
+}

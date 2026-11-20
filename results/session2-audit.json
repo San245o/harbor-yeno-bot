@@ -1,0 +1,75 @@
+{
+  "evidence": "CAPTURE_QUALITY_ONLY",
+  "in_progress": false,
+  "partial_gzip_tail": false,
+  "first_received_at": 1794751545.0656161,
+  "last_received_at": 1794753602.973782,
+  "events": {
+    "yeno_market": 330,
+    "connection": 2,
+    "clob": 1538990,
+    "gamma_market": 8,
+    "reference": 4032,
+    "yeno_book_metadata": 112
+  },
+  "nonmonotonic_receive_rows": 0,
+  "nonconsecutive_sequence_rows": 0,
+  "max_receive_gap_seconds": {
+    "clob": 1.7912650108337402,
+    "crypto:btcusdt:twap60": 8.140339136123657,
+    "crypto:btcusdt": 4.500500202178955
+  },
+  "receive_gaps_above_freshness_threshold": {
+    "clob": 0,
+    "crypto:btcusdt:twap60": 100,
+    "crypto:btcusdt": 91
+  },
+  "connection_events": [
+    {
+      "receivedAt": 1794751547.8391333,
+      "feed": "clob",
+      "event": "connected"
+    },
+    {
+      "receivedAt": 1794751548.2781777,
+      "feed": "reference",
+      "event": "connected"
+    }
+  ],
+  "markets": {
+    "btc-updown-5m-1794751500": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794751800": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794752100": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794752400": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794752700": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794753000": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794753300": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    },
+    "btc-updown-5m-1794753600": {
+      "gamma_minimum_available": true,
+      "initial_snapshots_available": true
+    }
+  },
+  "reached_planned_end": true,
+  "limitations": "Feed-wide receive gaps do not prove per-outcome freshness or lossless delivery. Book freshness is independently enforced at every replay fill."
+}

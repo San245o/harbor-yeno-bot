@@ -1,0 +1,22 @@
+{
+  "frozen_at_utc": "2026-11-15T14:10:38.322461+00:00",
+  "capture": "forward-20261115-session2",
+  "development_windows": [
+    1794751800,
+    1794752100,
+    1794752400
+  ],
+  "holdout_windows": [
+    1794752700,
+    1794753000,
+    1794753300
+  ],
+  "candidates": {
+    "harbor": "Incumbent defaults; learn history only with valid final target.",
+    "warmup": "Identical except learn fresh causal BTC history while target remains missing/provisional; entry guards unchanged.",
+    "edge04": "Identical to incumbent except minimum model probability edge 0.04 instead of 0.03."
+  },
+  "policy": "No parameter sweep. Inspect development first, select at most one candidate, then report held-out comparison. No official score or superiority claim from a short sample. Target validation is shared data-quality correction for all strategies.",
+  "strategy_source_sha256": "b7170298b99ac48e63d45db70fcefb9882924dd9b5b37b8db54baac965f09d77",
+  "selection_rule": "Keep incumbent unless a candidate improves closed-cycle cash without more incomplete cycles or materially worse drawdown on development. Any selection remains experimental; holdout is descriptive, never sufficient for broad edge or official qualification. If all tied or no trading, retain incumbent."
+}

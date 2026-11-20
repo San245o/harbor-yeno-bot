@@ -1,0 +1,39 @@
+{
+  "yeno-house-bot-benchmark.md": {
+    "sha256": "595f136241a8b2258f05184fe5aa6df72cfdf2004435cce70b6074ce9a525f8d",
+    "archive_url": "https://builderr.ai/downloads/yeno-starter-kit.zip",
+    "archive_member": "yeno-house-bot-benchmark.md"
+  },
+  "yeno-sample-observation.json": {
+    "url": "https://builderr.ai/downloads/yeno-sample-observation.json",
+    "sha256": "cec9fdff2f5b641ec72c16f28fc9aab62c1a95b1058d4c5e03c2a5c3c1cb8b4f"
+  },
+  "yeno-house-bot-v1.py": {
+    "url": "https://builderr.ai/downloads/yeno-house-bot-v1.py",
+    "sha256": "e392148613a87a6ca2d4491bf8a0afb3075059d2f5b00c6d2451dd1243e42046"
+  },
+  "yeno-starter-readme.md": {
+    "url": "https://builderr.ai/downloads/yeno-starter-readme.md",
+    "sha256": "e1fd159057612c4602c2a759a153dcfd8330003dd9ada40676237f73d4aa55ec"
+  },
+  "yeno-house-bot-configs.json": {
+    "url": "https://builderr.ai/downloads/yeno-house-bot-configs.json",
+    "sha256": "d2bab1ed405d355857e676eb4aadf5b08dec47d8f09450a9f128434a4764387d"
+  },
+  "yeno-evaluator-contract.md": {
+    "url": "https://builderr.ai/downloads/yeno-evaluator-contract.md",
+    "sha256": "5b8b43a80a75bb294d5a5b5564ae0376dc938d10a0356b60740de77d1ac53ad7"
+  },
+  "yeno-starter-kit.zip": {
+    "url": "https://builderr.ai/downloads/yeno-starter-kit.zip",
+    "sha256": "721e504c366af29d3e1495aac3136a5647740913b87631dae4639339740b1586"
+  },
+  "yeno_competition_starter_bot.py": {
+    "url": "https://builderr.ai/downloads/yeno_competition_starter_bot.py",
+    "sha256": "0153c38f66f6ff6cf5d5fe0e93f6a9fc37b76931638de6517b4665ca06a267f7"
+  },
+  "yeno-smoke-test.py": {
+    "url": "https://builderr.ai/downloads/yeno-smoke-test.py",
+    "sha256": "8394a98d634e17126b142116b4864365773735eecf60ea364da6d988e6f8a6c6"
+  }
+}

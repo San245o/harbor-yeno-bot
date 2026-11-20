@@ -1,0 +1,62 @@
+{
+  "evidence": "REAL_PUBLIC_FORWARD_CAPTURE",
+  "official_parity": false,
+  "source_sha256": "166e1dabf0d44ef4778330dec9ce6f232e3939b397eb87998f41b11867099269",
+  "capture_file_sha256": {
+    "raw.jsonl.gz": "d5cbeb928c6ec02047de20b1d0228d328becbf5b6ff7d58fed1c62b67ecdb30f",
+    "supplemental.jsonl": "8ac09f8c0ceb6bc50af072cb498cdbeb567fd236ebedd305c641dd54f945fdd0",
+    "manifest.json": "27a4af12c37d6567aced388b3e5512ced5fa742e5153b2465ca55451e99636eb"
+  },
+  "contained_market_windows": [
+    "btc-updown-5m-1794750600"
+  ],
+  "complete_data_validated": false,
+  "data_diagnostics": {
+    "raw_rows": 302964,
+    "connection_events": 2,
+    "out_of_order_book_events": 9,
+    "missing_reference_or_target": 8280,
+    "observations": 221018,
+    "target_revisions": 1
+  },
+  "strategies": {
+    "harbor": {
+      "evidence": "local diagnostic; no official parity validation",
+      "qualified": false,
+      "cash_usd": 10.02475567300186,
+      "volume_usd": 20.0102116729543,
+      "fees_usd": 0.23138,
+      "max_drawdown_usd": 0.19242470199724515,
+      "cycles": 2,
+      "settled_incomplete_cycles": 0,
+      "decisions": 220062,
+      "invalid_decisions": 0,
+      "rejected_buys": 0,
+      "flat": true,
+      "elapsed_seconds": 287.7460069656372,
+      "status": "DATA_ENDED_FLAT"
+    },
+    "reference": {
+      "evidence": "local diagnostic; no official parity validation",
+      "qualified": false,
+      "cash_usd": 10.024755724870081,
+      "volume_usd": 20.010215724801803,
+      "fees_usd": 0.23138,
+      "max_drawdown_usd": 0.19242469179521393,
+      "cycles": 2,
+      "settled_incomplete_cycles": 0,
+      "decisions": 220062,
+      "invalid_decisions": 0,
+      "rejected_buys": 0,
+      "flat": true,
+      "elapsed_seconds": 287.7460069656372,
+      "status": "DATA_ENDED_FLAT"
+    }
+  },
+  "limitations": [
+    "Public upstream books; not Builderr's private capture or canonical evaluator.",
+    "Published post-open cryptoOpenPrice treated as final; no API provisional flag.",
+    "Observation freshness uses local receive time; original source times preserved.",
+    "No settlement inference: unresolved leftover inventory remains incomplete."
+  ]
+}

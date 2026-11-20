@@ -1,0 +1,112 @@
+{
+  "evidence": "REAL_PUBLIC_FORWARD_CAPTURE",
+  "official_parity": false,
+  "source_sha256": "b7170298b99ac48e63d45db70fcefb9882924dd9b5b37b8db54baac965f09d77",
+  "capture_file_sha256": {
+    "raw.jsonl.gz": "83d8512931fb7fd0a76698d72655e16248a33052d93355fac091ae9721a8a008",
+    "manifest.json": "c3e427d9f2bf792d8724fb95369f6f7c5504c2bbdad1b74f524c0167bc39ab8c"
+  },
+  "contained_market_windows": [
+    "btc-updown-5m-1794751800",
+    "btc-updown-5m-1794752100",
+    "btc-updown-5m-1794752400",
+    "btc-updown-5m-1794752700",
+    "btc-updown-5m-1794753000",
+    "btc-updown-5m-1794753300"
+  ],
+  "complete_data_validated": false,
+  "data_diagnostics": {
+    "raw_rows": 1543474,
+    "connection_events": 2,
+    "out_of_order_book_events": 75,
+    "provisional_target_observations": 367073,
+    "observations": 1378310,
+    "target_revisions": 2
+  },
+  "included_market_openings": [
+    1794751800,
+    1794752100,
+    1794752400
+  ],
+  "candidate_configurations": {
+    "harbor": {},
+    "warmup": {
+      "learn_without_target": true
+    },
+    "edge04": {
+      "minimum_model_edge": 0.04
+    }
+  },
+  "strategies": {
+    "harbor": {
+      "evidence": "local diagnostic; no official parity validation",
+      "qualified": false,
+      "cash_usd": 10.136673457445116,
+      "volume_usd": 10.122211457381495,
+      "fees_usd": 0.12556,
+      "max_drawdown_usd": 1.0596504468024186,
+      "cycles": 1,
+      "settled_incomplete_cycles": 0,
+      "decisions": 742111,
+      "invalid_decisions": 0,
+      "rejected_buys": 0,
+      "flat": true,
+      "elapsed_seconds": 899.994945526123,
+      "status": "DATA_ENDED_FLAT"
+    },
+    "warmup": {
+      "evidence": "local diagnostic; no official parity validation",
+      "qualified": false,
+      "cash_usd": 10.136673457445116,
+      "volume_usd": 10.122211457381495,
+      "fees_usd": 0.12556,
+      "max_drawdown_usd": 1.0596504468024186,
+      "cycles": 1,
+      "settled_incomplete_cycles": 0,
+      "decisions": 742111,
+      "invalid_decisions": 0,
+      "rejected_buys": 0,
+      "flat": true,
+      "elapsed_seconds": 899.994945526123,
+      "status": "DATA_ENDED_FLAT"
+    },
+    "edge04": {
+      "evidence": "local diagnostic; no official parity validation",
+      "qualified": false,
+      "cash_usd": 10.0,
+      "volume_usd": 0.0,
+      "fees_usd": 0.0,
+      "max_drawdown_usd": 0.0,
+      "cycles": 0,
+      "settled_incomplete_cycles": 0,
+      "decisions": 742649,
+      "invalid_decisions": 0,
+      "rejected_buys": 0,
+      "flat": true,
+      "elapsed_seconds": 899.994945526123,
+      "status": "DATA_ENDED_FLAT"
+    },
+    "reference": {
+      "evidence": "local diagnostic; no official parity validation",
+      "qualified": false,
+      "cash_usd": 10.0,
+      "volume_usd": 0.0,
+      "fees_usd": 0.0,
+      "max_drawdown_usd": 0.0,
+      "cycles": 0,
+      "settled_incomplete_cycles": 0,
+      "decisions": 742649,
+      "invalid_decisions": 0,
+      "rejected_buys": 0,
+      "flat": true,
+      "elapsed_seconds": 899.994945526123,
+      "status": "DATA_ENDED_FLAT"
+    }
+  },
+  "limitations": [
+    "Public upstream books; not Builderr's private capture or canonical evaluator.",
+    "Target is provisional until matching a causally received exact-opening TWAP; missing samples block entries.",
+    "Observation freshness uses local receive time; original source times preserved.",
+    "No settlement inference: unresolved leftover inventory remains incomplete."
+  ]
+}

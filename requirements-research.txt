@@ -1,0 +1,2 @@
+# Only the public-data recorder needs this. The submitted bot is stdlib-only.
+websockets==16.0
